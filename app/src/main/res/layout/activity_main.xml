@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="yesman.af.softwareengineeringdepartment.cbnu.cosmetic.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/get_cosmetic_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화장품 데이터 가져오기"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화장품 리뷰 등등 전체 데이터 가져오기"
+        android:id="@+id/get_all_cosmetic_btn"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="랭킹으로 가져오기"
+        android:id="@+id/get_rank_cosmetic_btn"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리뷰 등록하기"
+        android:id="@+id/store_review"
+        />
+
+
+</LinearLayout>
