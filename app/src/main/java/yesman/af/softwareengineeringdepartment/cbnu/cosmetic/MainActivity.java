@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ServerManager manager = ServerManager.getInstance();
-                manager.store_review(new Review("Lush","Dirty Spray","reviewr_id","좋아요!",3,4.0,1));
+                manager.delete_review(new Review("Lush","Dirty Spray","유원영","나쁨/Bod/NoTip!",3,4.0,1));
             }
         });
 
